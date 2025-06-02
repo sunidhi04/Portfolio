@@ -428,7 +428,7 @@ const Index = () => {
             </Button>
           </div>
           <div className="mt-12 text-purple-100 text-sm animate-fade-in" style={{animationDelay: '0.6s'}}>
-            <p className="hover:text-white transition-colors cursor-pointer">(778) 215-1206</p>
+            <p className="hover:text-white transition-colors cursor-pointer"></p>
             <p className="mt-2 italic">"Empowering women in technology, one line of code at a time."</p>
           </div>
         </div>
