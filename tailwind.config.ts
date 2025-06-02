@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,6 +19,15 @@ export default {
 		},
 		extend: {
 			colors: {
+				royalBlue: {
+					DEFAULT: '#4169E1', // Royal Blue
+					foreground: '#FFFFFF', // White foreground for contrast
+				},
+				gold: {
+					DEFAULT: '#FFD700', // Gold
+					foreground: '#000000', // Black foreground for contrast
+				},
+				// Keep existing colors
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
