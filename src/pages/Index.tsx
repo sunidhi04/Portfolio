@@ -78,13 +78,13 @@ const Index = () => {
 
   const experiences = [
     {
-      title: "Banking Advisor Intern",
+      title: "Client Banking Advisor Intern",
       company: "Royal Bank of Canada",
       location: "Kelowna, BC",
       period: "Mar 2022 – Jun 2023",
       icon: <Briefcase className="w-6 h-6" />,
       achievements: [
-        "Delivered day-to-day banking support to 50+ customers weekly, increasing client satisfaction scores by 18%",
+        "Delivered day-to-day banking support to 70+ customers weekly, increasing client satisfaction scores by 25%",
         "Educated customers on RBC's digital banking tools, contributing to a 25% uptick in digital adoption",
         "Collaborated with advisors to identify client needs and promote cross-selling, increasing product uptake by 12%",
         "Maintained 100% compliance with RBC's confidentiality, privacy, and financial policies"
@@ -97,9 +97,10 @@ const Index = () => {
       period: "Sep 2023 – Aug 2024",
       icon: <Heart className="w-6 h-6" />,
       achievements: [
-        "Managed a $5,000 annual budget, ensuring funds were aligned with event priorities and club objectives",
+        "Managed a $10,000 annual budget and sponsorships, ensuring funds were aligned with event priorities and club objectives",
         "Prepared monthly financial reports and grant applications, securing an additional $1,200 in student union funding",
-        "Supported outreach efforts by drafting sponsorship proposals, resulting in two new partnerships with tech companies"
+        "Supported outreach efforts by drafting sponsorship proposals, resulting in two new partnerships with tech companies",
+        "Organized and led a campus-wide hackathon with over 60 participants, coordinating logistics, sponsorships, and technical workshops"
       ]
     }
   ];
@@ -128,15 +129,8 @@ const Index = () => {
       description: "Engineered a single-player adaptation of 'Fall Guys' featuring 5 obstacle course levels, achieving a stable 60 FPS performance across devices. Developed physics-based mechanics and simple AI opponents, enhancing gameplay engagement during user testing.",
       metrics: "60 FPS stable performance",
       link: "#"
-    },
-    {
-      title: "Data Visualization Tool",
-      year: "Nov 2023",
-      tech: ["JavaScript", "D3.js", "HTML", "CSS"],
-      description: "Built an interactive data visualization tool enabling users to upload CSV files and generate customizable bar and line charts. Reduced data analysis time by 30% through real-time filtering and dynamic chart rendering.",
-      metrics: "30% faster data analysis",
-      link: "#"
     }
+
   ];
 
   const skills = {
