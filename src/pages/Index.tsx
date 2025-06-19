@@ -93,7 +93,7 @@ const Index = () => {
     {
       title: "Financial Officer",
       company: "Girls in Tech UBC",
-      location: "Vancouver, BC",
+      location: "UBC",
       period: "Sep 2023 – Aug 2024",
       icon: <Heart className="w-6 h-6" />,
       achievements: [
