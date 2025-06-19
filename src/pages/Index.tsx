@@ -142,10 +142,10 @@ const Index = () => {
   };
 
   const achievements = [
-    { icon: <Users className="w-8 h-8" />, title: "50+", subtitle: "Customers Served Weekly" },
+    { icon: <Users className="w-8 h-8" />, title: "70+", subtitle: "Customers Served Weekly" },
     { icon: <TrendingUp className="w-8 h-8" />, title: "25%", subtitle: "Digital Adoption Increase" },
-    { icon: <Award className="w-8 h-8" />, title: "$6,200", subtitle: "Budget & Grants Managed" },
-    { icon: <Code className="w-8 h-8" />, title: "4", subtitle: "Major Projects Completed" }
+    { icon: <Award className="w-8 h-8" />, title: "$10,000", subtitle: "Budget & Grants Managed" },
+    { icon: <Code className="w-8 h-8" />, title: "3", subtitle: "Major Projects Completed" }
   ];
 
   return (
