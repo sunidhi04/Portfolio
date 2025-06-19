@@ -259,7 +259,7 @@ const Index = () => {
               <div className="flex items-center space-x-6 text-sm text-gray-500 dark:text-gray-400">
                 <div className="flex items-center hover:text-purple-600 transition-colors">
                   <MapPin className="w-4 h-4 mr-1" />
-                  Vancouver, BC
+                  UBC
                 </div>
                 <div className="flex items-center hover:text-purple-600 transition-colors">
                   <Calendar className="w-4 h-4 mr-1" />
